@@ -6,7 +6,12 @@
 }
 
 html {
+    cursor: url('icons8-cursor-48.png') 16 16, pointer; 
     scroll-behavior: smooth;
+}
+
+a, button {
+    cursor: url('icons8-cursor-64.png'), pointer; /* Usamos una imagen personalizada */
 }
 
 body {
